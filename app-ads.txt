@@ -1,4 +1,4 @@
-ownerdomain=iterumgames.github.io
+ownerdomain=iterum.games
 programmaticx.ai, 84448, RESELLER, b42d42eb28400efa
 spinx.biz, 1373698903, RESELLER, 9f2711e9aaa9f992
 unity.com, 162676322, DIRECT, 96cabb5fbdde37a7
