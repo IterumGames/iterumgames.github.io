@@ -1,0 +1,12 @@
+{
+  "baseStart": 0.0,
+  "baseEnd": 0.32,
+  "ramp": 70,
+  "spikeScale": 1.0,
+  "maxTarget": 0.75,
+  "hiddenMax": 0.35,
+  "generatedFrom": 0,
+  "weeklyTarget": 0.6,
+  "endlessStart": 0.05,
+  "endlessStep": 0.03
+}
