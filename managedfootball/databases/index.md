@@ -33,6 +33,8 @@ Use whichever is easiest:
 4. If there are problems, each one gives the line in the file and what is wrong. Fix it on your computer, move the file across again and import it again.
 5. Tap **Choose a starting season**, pick your club, and play.
 
+**Or load it from a web address.** If your file is online, tap **Load from a web address**, type or paste its `https://` address and tap **Download**. The address must lead straight to the file: a sharing page that only shows the file in a browser will not work, and the game will tell you so. Files up to 16 MB.
+
 If you prefer, you can copy files straight into the folder the game reads, `Android/data/com.iterumgames.managedfootball/files/Databases/`, over USB and then tap **Check folder**. Many newer Android versions hide that folder from file manager apps on the phone, so USB is the reliable way to reach it.
 
 Uninstalling the game deletes the copies it holds, so keep your original on your computer.
