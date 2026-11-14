@@ -1,0 +1,558 @@
+{
+  "format": "managedfootball-database",
+  "formatVersion": 1,
+  "name": "Ardeland Example League",
+  "author": "Iterum Games",
+  "version": "1.0",
+  "description": "An invented example to copy and edit. Every club, place and person in it is made up.",
+  "editions": [
+    {
+      "label": "2026–27",
+      "startYear": 2026,
+      "nations": [
+        {
+          "name": "Ardeland",
+          "adjective": "Ardelish",
+          "code": "ARD"
+        },
+        {
+          "name": "Valdoria",
+          "adjective": "Valdorian",
+          "code": "VAL"
+        }
+      ],
+      "cupName": "Ardeland Lantern Cup",
+      "divisions": [
+        {
+          "name": "Ardeland Premier Circle",
+          "shortName": "Premier Circle",
+          "tier": 1,
+          "clubs": [
+            {
+              "name": "Halvermoor Athletic",
+              "shortName": "Halvermoor",
+              "code": "HAL",
+              "reputation": 86,
+              "colours": ["#1C5D99", "#FFFFFF"],
+              "fanBase": 52000,
+              "balance": 34000000,
+              "stadium": {
+                "name": "Moorside Lane",
+                "capacity": 48000,
+                "stands": [
+                  {"side": "west", "name": "The Founders Stand", "seats": 15000, "standing": 0, "roof": true},
+                  {"side": "north", "name": "Kilnyard End", "seats": 9000, "standing": 2000, "roof": true}
+                ]
+              },
+              "staff": [
+                {"firstName": "Aurelia", "lastName": "Thackwray", "role": "AssistantManager", "quality": 68},
+                {"firstName": "Bram", "lastName": "Oxenhope", "role": "Physio", "quality": 61}
+              ],
+              "players": [
+                {"firstName": "Ulric", "lastName": "Jessamy", "dateOfBirth": "2005-07-14", "nationality": "Ardeland", "positions": ["GK"], "foot": "right", "shirtNumber": 1, "wage": 10200, "contractEnd": "2030-06-30", "attributes": {"pace": 70, "strength": 74, "stamina": 64, "determination": 65, "passing": 77, "shooting": 52, "tackling": 45, "heading": 49, "control": 73, "agility": 72, "awareness": 86, "setPieces": 72, "leadership": 67, "goalkeeping": 72}},
+                {"firstName": "Dorian", "lastName": "Hartrigg", "dateOfBirth": "1998-07-05", "nationality": "Ardeland", "positions": ["GK"], "foot": "right", "shirtNumber": 2, "wage": 11800, "contractEnd": "2029-06-30", "attributes": {"pace": 67, "strength": 74, "stamina": 74, "determination": 73, "passing": 64, "shooting": 53, "tackling": 53, "heading": 50, "control": 64, "agility": 75, "awareness": 72, "setPieces": 72, "leadership": 77, "goalkeeping": 74}},
+                {"firstName": "Marek", "lastName": "Lowrance", "dateOfBirth": "1994-06-15", "nationality": "Ardeland", "positions": ["CB"], "foot": "right", "shirtNumber": 3, "wage": 11400, "contractEnd": "2029-06-30", "attributes": {"pace": 65, "strength": 81, "stamina": 73, "determination": 74, "passing": 67, "shooting": 69, "tackling": 73, "heading": 80, "control": 75, "agility": 65, "awareness": 73, "setPieces": 64, "leadership": 73, "goalkeeping": 10}},
+                {"firstName": "Tamsin", "lastName": "Pellow", "dateOfBirth": "2005-02-17", "nationality": "Ardeland", "positions": ["CB"], "foot": "right", "shirtNumber": 4, "wage": 11000, "contractEnd": "2028-06-30", "attributes": {"pace": 76, "strength": 74, "stamina": 75, "determination": 76, "passing": 67, "shooting": 65, "tackling": 81, "heading": 76, "control": 72, "agility": 71, "awareness": 78, "setPieces": 69, "leadership": 75, "goalkeeping": 7}},
+                {"firstName": "Ivar", "lastName": "Callow", "dateOfBirth": "1993-02-27", "nationality": "Ardeland", "positions": ["CB"], "foot": "right", "shirtNumber": 5, "wage": 10800, "contractEnd": "2030-06-30", "attributes": {"pace": 64, "strength": 82, "stamina": 65, "determination": 76, "passing": 72, "shooting": 73, "tackling": 84, "heading": 86, "control": 77, "agility": 69, "awareness": 69, "setPieces": 75, "leadership": 69, "goalkeeping": 10}},
+                {"firstName": "Ellis", "lastName": "Darrowby", "dateOfBirth": "1993-06-06", "nationality": "Ardeland", "positions": ["CB"], "foot": "right", "shirtNumber": 6, "wage": 11500, "contractEnd": "2027-06-30", "attributes": {"pace": 75, "strength": 83, "stamina": 68, "determination": 74, "passing": 73, "shooting": 74, "tackling": 85, "heading": 79, "control": 68, "agility": 75, "awareness": 70, "setPieces": 78, "leadership": 74, "goalkeeping": 3}},
+                {"firstName": "Nevin", "lastName": "Sallowby", "dateOfBirth": "1994-09-09", "nationality": "Ardeland", "positions": ["LB"], "foot": "left", "shirtNumber": 7, "wage": 11100, "contractEnd": "2030-06-30", "attributes": {"pace": 74, "strength": 75, "stamina": 75, "determination": 70, "passing": 70, "shooting": 78, "tackling": 85, "heading": 71, "control": 65, "agility": 66, "awareness": 71, "setPieces": 70, "leadership": 72, "goalkeeping": 5}},
+                {"firstName": "Orrin", "lastName": "Jessamy", "dateOfBirth": "1994-09-12", "nationality": "Ardeland", "positions": ["RB"], "foot": "right", "shirtNumber": 8, "wage": 11000, "contractEnd": "2028-06-30", "attributes": {"pace": 73, "strength": 66, "stamina": 74, "determination": 67, "passing": 74, "shooting": 67, "tackling": 72, "heading": 71, "control": 77, "agility": 73, "awareness": 66, "setPieces": 68, "leadership": 68, "goalkeeping": 5}},
+                {"firstName": "Jarek", "lastName": "Darrowby", "dateOfBirth": "2006-04-03", "nationality": "Valdoria", "positions": ["LWB"], "foot": "left", "shirtNumber": 9, "wage": 11400, "contractEnd": "2028-06-30", "attributes": {"pace": 79, "strength": 78, "stamina": 85, "determination": 76, "passing": 85, "shooting": 74, "tackling": 76, "heading": 72, "control": 70, "agility": 70, "awareness": 70, "setPieces": 70, "leadership": 65, "goalkeeping": 9}},
+                {"firstName": "Huxley", "lastName": "Varnell", "dateOfBirth": "1995-03-21", "nationality": "Ardeland", "positions": ["RWB"], "foot": "right", "shirtNumber": 10, "wage": 11100, "contractEnd": "2029-06-30", "attributes": {"pace": 81, "strength": 64, "stamina": 73, "determination": 64, "passing": 81, "shooting": 66, "tackling": 72, "heading": 65, "control": 69, "agility": 73, "awareness": 64, "setPieces": 65, "leadership": 77, "goalkeeping": 12}},
+                {"firstName": "Hollis", "lastName": "Hartrigg", "dateOfBirth": "2002-09-01", "nationality": "Ardeland", "positions": ["DM"], "foot": "right", "shirtNumber": 11, "wage": 11600, "contractEnd": "2029-06-30", "attributes": {"pace": 65, "strength": 77, "stamina": 71, "determination": 71, "passing": 79, "shooting": 71, "tackling": 76, "heading": 65, "control": 66, "agility": 65, "awareness": 83, "setPieces": 69, "leadership": 75, "goalkeeping": 10}},
+                {"firstName": "Jory", "lastName": "Kersey", "dateOfBirth": "1996-04-18", "nationality": "Ardeland", "positions": ["CM"], "foot": "right", "shirtNumber": 12, "wage": 11600, "contractEnd": "2029-06-30", "attributes": {"pace": 78, "strength": 64, "stamina": 84, "determination": 72, "passing": 76, "shooting": 74, "tackling": 77, "heading": 65, "control": 83, "agility": 77, "awareness": 68, "setPieces": 72, "leadership": 69, "goalkeeping": 5}},
+                {"firstName": "Orrin", "lastName": "Merriday", "dateOfBirth": "1992-05-07", "nationality": "Ardeland", "positions": ["CM"], "foot": "right", "shirtNumber": 13, "wage": 11100, "contractEnd": "2030-06-30", "attributes": {"pace": 76, "strength": 67, "stamina": 85, "determination": 70, "passing": 83, "shooting": 76, "tackling": 67, "heading": 67, "control": 80, "agility": 71, "awareness": 69, "setPieces": 75, "leadership": 64, "goalkeeping": 7}},
+                {"firstName": "Wilder", "lastName": "Yarrell", "dateOfBirth": "1996-11-03", "nationality": "Valdoria", "positions": ["CM"], "foot": "right", "shirtNumber": 14, "wage": 10300, "contractEnd": "2030-06-30", "attributes": {"pace": 65, "strength": 67, "stamina": 73, "determination": 67, "passing": 79, "shooting": 67, "tackling": 69, "heading": 67, "control": 79, "agility": 73, "awareness": 78, "setPieces": 73, "leadership": 77, "goalkeeping": 10}},
+                {"firstName": "Milo", "lastName": "Grimsdale", "dateOfBirth": "2002-03-01", "nationality": "Ardeland", "positions": ["LM"], "foot": "left", "shirtNumber": 15, "wage": 11400, "contractEnd": "2028-06-30", "attributes": {"pace": 86, "strength": 66, "stamina": 70, "determination": 76, "passing": 82, "shooting": 69, "tackling": 65, "heading": 76, "control": 83, "agility": 70, "awareness": 71, "setPieces": 70, "leadership": 75, "goalkeeping": 5}},
+                {"firstName": "Hollis", "lastName": "Wexley", "dateOfBirth": "2001-04-01", "nationality": "Ardeland", "positions": ["RM"], "foot": "right", "shirtNumber": 16, "wage": 10900, "contractEnd": "2028-06-30", "attributes": {"pace": 74, "strength": 72, "stamina": 72, "determination": 66, "passing": 72, "shooting": 64, "tackling": 76, "heading": 75, "control": 82, "agility": 65, "awareness": 72, "setPieces": 75, "leadership": 78, "goalkeeping": 9}},
+                {"firstName": "Ulric", "lastName": "Quarrie", "dateOfBirth": "1994-09-05", "nationality": "Ardeland", "positions": ["AM"], "foot": "right", "shirtNumber": 17, "wage": 11600, "contractEnd": "2027-06-30", "attributes": {"pace": 72, "strength": 70, "stamina": 77, "determination": 66, "passing": 72, "shooting": 86, "tackling": 75, "heading": 69, "control": 86, "agility": 71, "awareness": 74, "setPieces": 73, "leadership": 77, "goalkeeping": 11}},
+                {"firstName": "Florin", "lastName": "Lowrance", "dateOfBirth": "1992-02-18", "nationality": "Ardeland", "positions": ["CM"], "foot": "right", "shirtNumber": 18, "wage": 10600, "contractEnd": "2029-06-30", "attributes": {"pace": 73, "strength": 64, "stamina": 84, "determination": 76, "passing": 74, "shooting": 66, "tackling": 66, "heading": 71, "control": 81, "agility": 75, "awareness": 65, "setPieces": 72, "leadership": 64, "goalkeeping": 11}},
+                {"firstName": "Caspian", "lastName": "Gillamoor", "dateOfBirth": "1999-08-17", "nationality": "Ardeland", "positions": ["ST"], "foot": "right", "shirtNumber": 19, "wage": 11500, "contractEnd": "2028-06-30", "attributes": {"pace": 80, "strength": 71, "stamina": 72, "determination": 64, "passing": 76, "shooting": 86, "tackling": 78, "heading": 73, "control": 71, "agility": 69, "awareness": 73, "setPieces": 72, "leadership": 73, "goalkeeping": 6}},
+                {"firstName": "Kellan", "lastName": "Quarrie", "dateOfBirth": "1994-02-07", "nationality": "Ardeland", "positions": ["ST"], "foot": "right", "shirtNumber": 20, "wage": 10300, "contractEnd": "2028-06-30", "attributes": {"pace": 86, "strength": 72, "stamina": 78, "determination": 67, "passing": 77, "shooting": 79, "tackling": 66, "heading": 78, "control": 65, "agility": 70, "awareness": 71, "setPieces": 69, "leadership": 65, "goalkeeping": 6}},
+                {"firstName": "Yoren", "lastName": "Jessamy", "dateOfBirth": "1994-09-13", "nationality": "Ardeland", "positions": ["LW"], "foot": "left", "shirtNumber": 21, "wage": 10600, "contractEnd": "2029-06-30", "attributes": {"pace": 76, "strength": 78, "stamina": 66, "determination": 71, "passing": 67, "shooting": 83, "tackling": 65, "heading": 70, "control": 86, "agility": 71, "awareness": 66, "setPieces": 74, "leadership": 77, "goalkeeping": 5}},
+                {"firstName": "Ulric", "lastName": "Fernshaw", "dateOfBirth": "2005-02-26", "nationality": "Ardeland", "positions": ["RW"], "foot": "right", "shirtNumber": 22, "wage": 10300, "contractEnd": "2027-06-30", "attributes": {"pace": 83, "strength": 69, "stamina": 64, "determination": 69, "passing": 72, "shooting": 79, "tackling": 71, "heading": 75, "control": 72, "agility": 70, "awareness": 69, "setPieces": 72, "leadership": 73, "goalkeeping": 11}}
+              ]
+            },
+            {
+              "name": "Quenby Wanderers",
+              "code": "QUE",
+              "colours": ["#6A2C70", "#F2C14E"],
+              "stadium": {
+                "name": "Quenby Fields",
+                "capacity": 39000
+              },
+              "players": [
+                {"firstName": "Quill", "lastName": "Rendle", "age": 18, "positions": ["GK"], "overall": 65, "potential": 75},
+                {"firstName": "Idris", "lastName": "Dunstall", "age": 25, "positions": ["GK"], "overall": 69},
+                {"firstName": "Jarek", "lastName": "Hollowell", "age": 27, "positions": ["CB"], "overall": 64},
+                {"firstName": "Rafe", "lastName": "Darrowby", "age": 22, "positions": ["CB"], "overall": 69},
+                {"firstName": "Ellis", "lastName": "Rendle", "age": 17, "positions": ["CB"], "overall": 73, "potential": 80},
+                {"firstName": "Quill", "lastName": "Fernshaw", "age": 24, "positions": ["CB"], "overall": 64},
+                {"firstName": "Quill", "lastName": "Hartrigg", "age": 31, "positions": ["LB"], "overall": 63},
+                {"firstName": "Vaughn", "lastName": "Lathbury", "age": 30, "positions": ["RB"], "overall": 67},
+                {"firstName": "Idris", "lastName": "Coldwell", "age": 33, "positions": ["LWB"], "overall": 66},
+                {"firstName": "Huxley", "lastName": "Kettleby", "age": 25, "positions": ["RWB"], "overall": 63},
+                {"firstName": "Lorcan", "lastName": "Merriday", "age": 26, "positions": ["DM"], "overall": 73},
+                {"firstName": "Tamsin", "lastName": "Jardley", "age": 23, "positions": ["CM"], "overall": 67},
+                {"firstName": "Florin", "lastName": "Ibbotsen", "age": 22, "positions": ["CM"], "overall": 67},
+                {"firstName": "Wilder", "lastName": "Brackenbury", "age": 25, "positions": ["CM"], "overall": 63},
+                {"firstName": "Tobin", "lastName": "Brackenbury", "age": 33, "positions": ["LM"], "overall": 71},
+                {"firstName": "Milo", "lastName": "Ibbotsen", "age": 32, "positions": ["RM"], "overall": 66},
+                {"firstName": "Florin", "lastName": "Gillamoor", "age": 30, "positions": ["AM"], "overall": 73},
+                {"firstName": "Ivar", "lastName": "Kersey", "age": 29, "positions": ["CM"], "overall": 71},
+                {"firstName": "Tamsin", "lastName": "Nettleford", "age": 24, "positions": ["ST"], "overall": 68},
+                {"firstName": "Milo", "lastName": "Inchley", "age": 29, "positions": ["ST"], "overall": 68},
+                {"firstName": "Dorian", "lastName": "Inchley", "age": 17, "positions": ["LW"], "overall": 64, "potential": 74},
+                {"firstName": "Emrys", "lastName": "Kettleby", "age": 18, "positions": ["RW"], "overall": 64, "potential": 76}
+              ]
+            },
+            {
+              "name": "Ostrel City",
+              "colours": ["#7B1E1E", "#FFFFFF"]
+            },
+            "Brackwater United",
+            "Fenmarch Rovers",
+            "Corriston Albion",
+            {
+              "name": "Dunholt Town",
+              "colours": ["#2E8B57", "#FFFFFF"]
+            },
+            "Pellingford Harriers",
+            "Saltrigg Rangers",
+            "Thornvale Sporting",
+            {
+              "name": "Ivelbrook FC",
+              "colours": ["#111111", "#FFFFFF"]
+            },
+            "Marrowgate Victoria",
+            "Ulverby County",
+            "Wexmoor Park",
+            {
+              "name": "Kestlebury Athletic",
+              "colours": ["#7B1E1E", "#FFFFFF"]
+            },
+            "Gorsemouth United"
+          ]
+        },
+        {
+          "name": "Ardeland Second Circle",
+          "shortName": "Second Circle",
+          "tier": 2,
+          "clubs": [
+            "Larkhaven Town",
+            "Nettlecombe Rovers",
+            {
+              "name": "Orbridge City",
+              "colours": ["#0B3D91", "#FFFFFF"]
+            },
+            "Plovermere United",
+            "Quarrington Athletic",
+            "Rushcombe Albion",
+            {
+              "name": "Sedgefold Wanderers",
+              "colours": ["#2E8B57", "#FFFFFF"]
+            },
+            "Tarnwick FC",
+            "Umberhythe Town",
+            "Vellstow Rangers",
+            {
+              "name": "Withercombe United",
+              "colours": ["#111111", "#FFFFFF"]
+            },
+            "Yeldmoor Harriers",
+            "Alderwick Sporting",
+            "Brinmouth County",
+            {
+              "name": "Cobblestead Athletic",
+              "colours": ["#C8102E", "#FFFFFF"]
+            },
+            "Draymoor Park"
+          ]
+        },
+        {
+          "name": "Ardeland Third Circle",
+          "shortName": "Third Circle",
+          "tier": 3,
+          "clubs": [
+            "Elskworth Town",
+            "Fothergate United",
+            {
+              "name": "Glimhurst Rovers",
+              "colours": ["#F57C00", "#FFFFFF"]
+            },
+            "Hobstead Albion",
+            "Kellmoor City",
+            "Loamford Athletic",
+            {
+              "name": "Merehaven United",
+              "colours": ["#0B3D91", "#FFFFFF"]
+            },
+            "Nabbury Wanderers",
+            "Otterwell Town",
+            "Pikeholme FC",
+            {
+              "name": "Quillmouth Rangers",
+              "colours": ["#0B3D91", "#FFFFFF"]
+            },
+            "Rookdale United",
+            "Sallowmere Harriers",
+            "Thrumwick Athletic",
+            {
+              "name": "Ullbridge Town",
+              "colours": ["#111111", "#FFFFFF"]
+            },
+            "Vanecross Rovers"
+          ]
+        },
+        {
+          "name": "Ardeland Fourth Circle",
+          "shortName": "Fourth Circle",
+          "tier": 4,
+          "clubs": [
+            "Wendholme Albion",
+            "Yarrowfield Town",
+            {
+              "name": "Briarmoor Athletic",
+              "colours": ["#F57C00", "#FFFFFF"]
+            },
+            "Caldstow United",
+            "Dunmerwick Rovers",
+            "Eskerford City",
+            {
+              "name": "Fallowmere Town",
+              "colours": ["#C8102E", "#FFFFFF"]
+            },
+            "Gallowhurst FC",
+            "Heronsmoor Wanderers",
+            "Ivelcombe Athletic",
+            {
+              "name": "Lindenport United",
+              "colours": ["#111111", "#FFFFFF"]
+            },
+            "Ormsthwaite Town",
+            "Pellbury Rangers",
+            "Rushymere Harriers",
+            {
+              "name": "Tarnholme Sporting",
+              "colours": ["#3B7A57", "#E0E0E0"],
+              "players": [
+                {"firstName": "Yoren", "lastName": "Varnell", "age": 34, "positions": ["GK"], "overall": 50},
+                {"firstName": "Perrin", "lastName": "Coldwell", "age": 26, "positions": ["GK"], "overall": 48},
+                {"firstName": "Wilder", "lastName": "Lowrance", "age": 17, "positions": ["CB"], "overall": 50, "potential": 62},
+                {"firstName": "Fenn", "lastName": "Grimsdale", "age": 25, "positions": ["CB"], "overall": 53},
+                {"firstName": "Milo", "lastName": "Pellow", "age": 33, "positions": ["CB"], "overall": 45},
+                {"firstName": "Fenn", "lastName": "Quarrie", "age": 19, "positions": ["CB"], "overall": 47, "potential": 59},
+                {"firstName": "Caspian", "lastName": "Birkett", "age": 17, "positions": ["LB"], "overall": 49, "potential": 59},
+                {"firstName": "Orrin", "lastName": "Fernshaw", "age": 33, "positions": ["RB"], "overall": 47},
+                {"firstName": "Bastien", "lastName": "Umbridge", "age": 32, "positions": ["LWB"], "overall": 47},
+                {"firstName": "Soren", "lastName": "Jessamy", "age": 18, "positions": ["RWB"], "overall": 53, "potential": 65},
+                {"firstName": "Jarek", "lastName": "Inchley", "age": 33, "positions": ["DM"], "overall": 53},
+                {"firstName": "Arlo", "lastName": "Oxenhope", "age": 19, "positions": ["CM"], "overall": 45, "potential": 51}
+              ]
+            },
+            {
+              "name": "Wrenstow Albion",
+              "colours": ["#3B7A57", "#E0E0E0"],
+              "players": [
+                {"firstName": "Idris", "lastName": "Yarrell", "age": 20, "positions": ["GK"], "overall": 51, "potential": 64},
+                {"firstName": "Marek", "lastName": "Darrowby", "age": 17, "positions": ["GK"], "overall": 55, "potential": 69},
+                {"firstName": "Perrin", "lastName": "Hollowell", "age": 25, "positions": ["CB"], "overall": 45},
+                {"firstName": "Gideon", "lastName": "Elsworth", "age": 33, "positions": ["CB"], "overall": 53},
+                {"firstName": "Fenn", "lastName": "Jardley", "age": 19, "positions": ["CB"], "overall": 52, "potential": 62},
+                {"firstName": "Ellis", "lastName": "Quarrie", "age": 24, "positions": ["CB"], "overall": 48},
+                {"firstName": "Orrin", "lastName": "Falconbridge", "age": 32, "positions": ["LB"], "overall": 51},
+                {"firstName": "Ellis", "lastName": "Grimsdale", "age": 26, "positions": ["RB"], "overall": 45},
+                {"firstName": "Milo", "lastName": "Elsworth", "age": 21, "positions": ["LWB"], "overall": 50, "potential": 60},
+                {"firstName": "Tamsin", "lastName": "Inchley", "age": 17, "positions": ["RWB"], "overall": 52, "potential": 58},
+                {"firstName": "Ivar", "lastName": "Rendle", "age": 20, "positions": ["DM"], "overall": 48, "potential": 61},
+                {"firstName": "Soren", "lastName": "Jardley", "age": 26, "positions": ["CM"], "overall": 52}
+              ]
+            }
+          ]
+        }
+      ],
+      "freeAgents": [
+        {"firstName": "Gideon", "lastName": "Hartrigg", "age": 34, "positions": ["LM"], "overall": 48},
+        {"firstName": "Arlo", "lastName": "Sallowby", "age": 31, "positions": ["RWB"], "overall": 46},
+        {"firstName": "Florin", "lastName": "Rendle", "age": 29, "positions": ["AM"], "overall": 48},
+        {"firstName": "Ellis", "lastName": "Fernshaw", "age": 21, "positions": ["LB"], "overall": 53, "potential": 63},
+        {"firstName": "Idris", "lastName": "Ibbotsen", "age": 25, "positions": ["CM"], "overall": 46},
+        {"firstName": "Orrin", "lastName": "Hollowell", "age": 32, "positions": ["CM"], "overall": 51}
+      ]
+    },
+    {
+      "label": "2031–32",
+      "startYear": 2031,
+      "nations": [
+        {
+          "name": "Ardeland",
+          "adjective": "Ardelish",
+          "code": "ARD"
+        },
+        {
+          "name": "Valdoria",
+          "adjective": "Valdorian",
+          "code": "VAL"
+        }
+      ],
+      "cupName": "Ardeland Lantern Cup",
+      "divisions": [
+        {
+          "name": "Ardeland Premier Circle",
+          "shortName": "Premier Circle",
+          "tier": 1,
+          "clubs": [
+            {
+              "name": "Halvermoor Athletic",
+              "shortName": "Halvermoor",
+              "code": "HAL",
+              "reputation": 86,
+              "colours": ["#1C5D99", "#FFFFFF"],
+              "fanBase": 52000,
+              "balance": 34000000,
+              "stadium": {
+                "name": "Moorside Lane",
+                "capacity": 48000,
+                "stands": [
+                  {"side": "west", "name": "The Founders Stand", "seats": 15000, "standing": 0, "roof": true},
+                  {"side": "north", "name": "Kilnyard End", "seats": 9000, "standing": 2000, "roof": true}
+                ]
+              },
+              "staff": [
+                {"firstName": "Aurelia", "lastName": "Thackwray", "role": "AssistantManager", "quality": 68},
+                {"firstName": "Bram", "lastName": "Oxenhope", "role": "Physio", "quality": 61}
+              ],
+              "players": [
+                {"firstName": "Arlo", "lastName": "Kettleby", "dateOfBirth": "2002-01-11", "nationality": "Ardeland", "positions": ["GK"], "foot": "right", "shirtNumber": 1, "wage": 11200, "contractEnd": "2032-06-30", "attributes": {"pace": 64, "strength": 71, "stamina": 74, "determination": 71, "passing": 70, "shooting": 48, "tackling": 55, "heading": 46, "control": 70, "agility": 77, "awareness": 78, "setPieces": 69, "leadership": 65, "goalkeeping": 85}},
+                {"firstName": "Milo", "lastName": "Ambrell", "dateOfBirth": "2004-01-09", "nationality": "Ardeland", "positions": ["GK"], "foot": "right", "shirtNumber": 2, "wage": 10900, "contractEnd": "2033-06-30", "attributes": {"pace": 78, "strength": 75, "stamina": 68, "determination": 68, "passing": 69, "shooting": 45, "tackling": 50, "heading": 50, "control": 77, "agility": 81, "awareness": 73, "setPieces": 69, "leadership": 78, "goalkeeping": 78}},
+                {"firstName": "Perrin", "lastName": "Rendle", "dateOfBirth": "2006-12-03", "nationality": "Ardeland", "positions": ["CB"], "foot": "right", "shirtNumber": 3, "wage": 11300, "contractEnd": "2035-06-30", "attributes": {"pace": 70, "strength": 80, "stamina": 69, "determination": 67, "passing": 76, "shooting": 69, "tackling": 84, "heading": 78, "control": 78, "agility": 64, "awareness": 76, "setPieces": 76, "leadership": 74, "goalkeeping": 11}},
+                {"firstName": "Idris", "lastName": "Sallowby", "dateOfBirth": "2000-11-08", "nationality": "Ardeland", "positions": ["CB"], "foot": "right", "shirtNumber": 4, "wage": 11700, "contractEnd": "2035-06-30", "attributes": {"pace": 71, "strength": 72, "stamina": 78, "determination": 78, "passing": 72, "shooting": 66, "tackling": 74, "heading": 79, "control": 70, "agility": 69, "awareness": 68, "setPieces": 68, "leadership": 68, "goalkeeping": 7}},
+                {"firstName": "Kit", "lastName": "Elsworth", "dateOfBirth": "2006-04-03", "nationality": "Ardeland", "positions": ["CB"], "foot": "right", "shirtNumber": 5, "wage": 11700, "contractEnd": "2032-06-30", "attributes": {"pace": 67, "strength": 80, "stamina": 78, "determination": 76, "passing": 71, "shooting": 72, "tackling": 75, "heading": 79, "control": 78, "agility": 69, "awareness": 76, "setPieces": 71, "leadership": 70, "goalkeeping": 11}},
+                {"firstName": "Ulric", "lastName": "Pellow", "dateOfBirth": "2000-05-11", "nationality": "Ardeland", "positions": ["CB"], "foot": "right", "shirtNumber": 6, "wage": 11500, "contractEnd": "2034-06-30", "attributes": {"pace": 69, "strength": 76, "stamina": 76, "determination": 73, "passing": 67, "shooting": 78, "tackling": 72, "heading": 83, "control": 77, "agility": 70, "awareness": 70, "setPieces": 70, "leadership": 75, "goalkeeping": 6}},
+                {"firstName": "Yoren", "lastName": "Inchley", "dateOfBirth": "1999-05-28", "nationality": "Valdoria", "positions": ["LB"], "foot": "left", "shirtNumber": 7, "wage": 10000, "contractEnd": "2033-06-30", "attributes": {"pace": 82, "strength": 72, "stamina": 80, "determination": 74, "passing": 76, "shooting": 77, "tackling": 85, "heading": 67, "control": 65, "agility": 68, "awareness": 78, "setPieces": 67, "leadership": 70, "goalkeeping": 10}},
+                {"firstName": "Caspian", "lastName": "Dunstall", "dateOfBirth": "1998-08-08", "nationality": "Ardeland", "positions": ["RB"], "foot": "right", "shirtNumber": 8, "wage": 10700, "contractEnd": "2033-06-30", "attributes": {"pace": 83, "strength": 76, "stamina": 86, "determination": 76, "passing": 71, "shooting": 73, "tackling": 79, "heading": 64, "control": 65, "agility": 70, "awareness": 78, "setPieces": 78, "leadership": 78, "goalkeeping": 11}},
+                {"firstName": "Jory", "lastName": "Jardley", "dateOfBirth": "2008-04-19", "nationality": "Valdoria", "positions": ["LWB"], "foot": "left", "shirtNumber": 9, "wage": 12000, "contractEnd": "2034-06-30", "attributes": {"pace": 82, "strength": 65, "stamina": 85, "determination": 75, "passing": 83, "shooting": 74, "tackling": 77, "heading": 76, "control": 78, "agility": 71, "awareness": 65, "setPieces": 72, "leadership": 76, "goalkeeping": 3}},
+                {"firstName": "Idris", "lastName": "Quarrie", "dateOfBirth": "2012-01-18", "nationality": "Ardeland", "positions": ["RWB"], "foot": "right", "shirtNumber": 10, "wage": 11400, "contractEnd": "2034-06-30", "attributes": {"pace": 80, "strength": 74, "stamina": 78, "determination": 75, "passing": 84, "shooting": 65, "tackling": 65, "heading": 65, "control": 68, "agility": 72, "awareness": 73, "setPieces": 67, "leadership": 70, "goalkeeping": 6}},
+                {"firstName": "Hollis", "lastName": "Jardley", "dateOfBirth": "2010-05-08", "nationality": "Ardeland", "positions": ["DM"], "foot": "right", "shirtNumber": 11, "wage": 11100, "contractEnd": "2033-06-30", "attributes": {"pace": 67, "strength": 72, "stamina": 67, "determination": 64, "passing": 78, "shooting": 75, "tackling": 82, "heading": 68, "control": 64, "agility": 64, "awareness": 75, "setPieces": 71, "leadership": 78, "goalkeeping": 9}},
+                {"firstName": "Ivar", "lastName": "Coldwell", "dateOfBirth": "2006-08-07", "nationality": "Ardeland", "positions": ["CM"], "foot": "right", "shirtNumber": 12, "wage": 10600, "contractEnd": "2033-06-30", "attributes": {"pace": 75, "strength": 69, "stamina": 83, "determination": 70, "passing": 77, "shooting": 74, "tackling": 70, "heading": 67, "control": 72, "agility": 76, "awareness": 68, "setPieces": 75, "leadership": 77, "goalkeeping": 4}},
+                {"firstName": "Gideon", "lastName": "Oxenhope", "dateOfBirth": "2008-07-02", "nationality": "Ardeland", "positions": ["CM"], "foot": "right", "shirtNumber": 13, "wage": 11900, "contractEnd": "2033-06-30", "attributes": {"pace": 68, "strength": 76, "stamina": 86, "determination": 68, "passing": 73, "shooting": 73, "tackling": 71, "heading": 73, "control": 74, "agility": 78, "awareness": 67, "setPieces": 71, "leadership": 70, "goalkeeping": 3}},
+                {"firstName": "Dace", "lastName": "Darrowby", "dateOfBirth": "2006-03-21", "nationality": "Valdoria", "positions": ["CM"], "foot": "right", "shirtNumber": 14, "wage": 11400, "contractEnd": "2032-06-30", "attributes": {"pace": 75, "strength": 64, "stamina": 74, "determination": 70, "passing": 79, "shooting": 78, "tackling": 75, "heading": 78, "control": 77, "agility": 75, "awareness": 65, "setPieces": 65, "leadership": 78, "goalkeeping": 8}},
+                {"firstName": "Tamsin", "lastName": "Ashgrove", "dateOfBirth": "2006-07-12", "nationality": "Ardeland", "positions": ["LM"], "foot": "left", "shirtNumber": 15, "wage": 10900, "contractEnd": "2035-06-30", "attributes": {"pace": 85, "strength": 69, "stamina": 69, "determination": 71, "passing": 74, "shooting": 65, "tackling": 64, "heading": 65, "control": 76, "agility": 65, "awareness": 69, "setPieces": 70, "leadership": 78, "goalkeeping": 11}},
+                {"firstName": "Fenn", "lastName": "Darrowby", "dateOfBirth": "2005-11-25", "nationality": "Ardeland", "positions": ["RM"], "foot": "right", "shirtNumber": 16, "wage": 11200, "contractEnd": "2032-06-30", "attributes": {"pace": 83, "strength": 71, "stamina": 67, "determination": 69, "passing": 80, "shooting": 78, "tackling": 71, "heading": 67, "control": 77, "agility": 69, "awareness": 75, "setPieces": 78, "leadership": 71, "goalkeeping": 9}},
+                {"firstName": "Dorian", "lastName": "Quarrie", "dateOfBirth": "2004-05-01", "nationality": "Ardeland", "positions": ["AM"], "foot": "right", "shirtNumber": 17, "wage": 11900, "contractEnd": "2032-06-30", "attributes": {"pace": 67, "strength": 75, "stamina": 65, "determination": 78, "passing": 81, "shooting": 77, "tackling": 69, "heading": 68, "control": 77, "agility": 73, "awareness": 64, "setPieces": 68, "leadership": 75, "goalkeeping": 8}},
+                {"firstName": "Garrick", "lastName": "Grimsdale", "dateOfBirth": "2003-12-25", "nationality": "Ardeland", "positions": ["CM"], "foot": "right", "shirtNumber": 18, "wage": 10700, "contractEnd": "2034-06-30", "attributes": {"pace": 75, "strength": 71, "stamina": 84, "determination": 70, "passing": 84, "shooting": 68, "tackling": 78, "heading": 70, "control": 85, "agility": 71, "awareness": 66, "setPieces": 78, "leadership": 71, "goalkeeping": 3}},
+                {"firstName": "Ulric", "lastName": "Falconbridge", "dateOfBirth": "1997-09-18", "nationality": "Ardeland", "positions": ["ST"], "foot": "right", "shirtNumber": 19, "wage": 11300, "contractEnd": "2032-06-30", "attributes": {"pace": 77, "strength": 76, "stamina": 76, "determination": 73, "passing": 65, "shooting": 80, "tackling": 67, "heading": 78, "control": 76, "agility": 66, "awareness": 67, "setPieces": 70, "leadership": 65, "goalkeeping": 3}},
+                {"firstName": "Fenn", "lastName": "Nettleford", "dateOfBirth": "2009-05-10", "nationality": "Ardeland", "positions": ["ST"], "foot": "right", "shirtNumber": 20, "wage": 10800, "contractEnd": "2034-06-30", "attributes": {"pace": 73, "strength": 70, "stamina": 71, "determination": 75, "passing": 71, "shooting": 74, "tackling": 67, "heading": 74, "control": 70, "agility": 71, "awareness": 73, "setPieces": 78, "leadership": 74, "goalkeeping": 11}},
+                {"firstName": "Quill", "lastName": "Quarrie", "dateOfBirth": "2004-04-17", "nationality": "Ardeland", "positions": ["LW"], "foot": "left", "shirtNumber": 21, "wage": 12000, "contractEnd": "2032-06-30", "attributes": {"pace": 75, "strength": 71, "stamina": 67, "determination": 66, "passing": 67, "shooting": 75, "tackling": 66, "heading": 68, "control": 86, "agility": 78, "awareness": 73, "setPieces": 67, "leadership": 69, "goalkeeping": 9}},
+                {"firstName": "Gideon", "lastName": "Coldwell", "dateOfBirth": "2011-04-20", "nationality": "Valdoria", "positions": ["RW"], "foot": "right", "shirtNumber": 22, "wage": 11800, "contractEnd": "2033-06-30", "attributes": {"pace": 73, "strength": 64, "stamina": 71, "determination": 78, "passing": 77, "shooting": 75, "tackling": 77, "heading": 71, "control": 86, "agility": 69, "awareness": 64, "setPieces": 78, "leadership": 68, "goalkeeping": 4}}
+              ]
+            },
+            {
+              "name": "Quenby Wanderers",
+              "code": "QUE",
+              "colours": ["#6A2C70", "#F2C14E"],
+              "stadium": {
+                "name": "Quenby Fields",
+                "capacity": 39000
+              },
+              "players": [
+                {"firstName": "Ellis", "lastName": "Yarrell", "age": 33, "positions": ["GK"], "overall": 65},
+                {"firstName": "Florin", "lastName": "Quarrie", "age": 17, "positions": ["GK"], "overall": 64, "potential": 75},
+                {"firstName": "Nevin", "lastName": "Coldwell", "age": 28, "positions": ["CB"], "overall": 68},
+                {"firstName": "Jory", "lastName": "Coldwell", "age": 23, "positions": ["CB"], "overall": 67},
+                {"firstName": "Caspian", "lastName": "Nettleford", "age": 17, "positions": ["CB"], "overall": 68, "potential": 80},
+                {"firstName": "Yoren", "lastName": "Lowrance", "age": 26, "positions": ["CB"], "overall": 64},
+                {"firstName": "Ivar", "lastName": "Lathbury", "age": 32, "positions": ["LB"], "overall": 64},
+                {"firstName": "Dace", "lastName": "Gillamoor", "age": 29, "positions": ["RB"], "overall": 73},
+                {"firstName": "Marek", "lastName": "Jessamy", "age": 34, "positions": ["LWB"], "overall": 64},
+                {"firstName": "Kit", "lastName": "Birkett", "age": 25, "positions": ["RWB"], "overall": 69},
+                {"firstName": "Soren", "lastName": "Thackwray", "age": 30, "positions": ["DM"], "overall": 63},
+                {"firstName": "Tamsin", "lastName": "Wexley", "age": 30, "positions": ["CM"], "overall": 69},
+                {"firstName": "Arlo", "lastName": "Yarrell", "age": 23, "positions": ["CM"], "overall": 69},
+                {"firstName": "Cosmo", "lastName": "Nettleford", "age": 17, "positions": ["CM"], "overall": 69, "potential": 77},
+                {"firstName": "Emrys", "lastName": "Hartrigg", "age": 19, "positions": ["LM"], "overall": 69, "potential": 80},
+                {"firstName": "Gideon", "lastName": "Kettleby", "age": 21, "positions": ["RM"], "overall": 63, "potential": 69},
+                {"firstName": "Cosmo", "lastName": "Fernshaw", "age": 28, "positions": ["AM"], "overall": 71},
+                {"firstName": "Kit", "lastName": "Jessamy", "age": 28, "positions": ["CM"], "overall": 67},
+                {"firstName": "Kit", "lastName": "Jardley", "age": 22, "positions": ["ST"], "overall": 64},
+                {"firstName": "Garrick", "lastName": "Ashgrove", "age": 32, "positions": ["ST"], "overall": 66},
+                {"firstName": "Caspian", "lastName": "Grimsdale", "age": 27, "positions": ["LW"], "overall": 63},
+                {"firstName": "Bastien", "lastName": "Fernshaw", "age": 22, "positions": ["RW"], "overall": 73}
+              ]
+            },
+            {
+              "name": "Ostrel City",
+              "colours": ["#0B3D91", "#FFFFFF"]
+            },
+            "Brackwater United",
+            "Fenmarch Rovers",
+            "Corriston Albion",
+            {
+              "name": "Dunholt Town",
+              "colours": ["#7B1E1E", "#FFFFFF"]
+            },
+            "Pellingford Harriers",
+            "Saltrigg Rangers",
+            "Thornvale Sporting",
+            {
+              "name": "Ivelbrook FC",
+              "colours": ["#F57C00", "#FFFFFF"]
+            },
+            "Marrowgate Victoria",
+            "Ulverby County",
+            "Wexmoor Park",
+            {
+              "name": "Kestlebury Athletic",
+              "colours": ["#7B1E1E", "#FFFFFF"]
+            },
+            "Larkhaven Town"
+          ]
+        },
+        {
+          "name": "Ardeland Second Circle",
+          "shortName": "Second Circle",
+          "tier": 2,
+          "clubs": [
+            "Gorsemouth United",
+            "Nettlecombe Rovers",
+            {
+              "name": "Orbridge City",
+              "colours": ["#0B3D91", "#FFFFFF"]
+            },
+            "Plovermere United",
+            "Quarrington Athletic",
+            "Rushcombe Albion",
+            {
+              "name": "Sedgefold Wanderers",
+              "colours": ["#F57C00", "#FFFFFF"]
+            },
+            "Tarnwick FC",
+            "Umberhythe Town",
+            "Vellstow Rangers",
+            {
+              "name": "Withercombe United",
+              "colours": ["#0B3D91", "#FFFFFF"]
+            },
+            "Yeldmoor Harriers",
+            "Alderwick Sporting",
+            "Brinmouth County",
+            {
+              "name": "Cobblestead Athletic",
+              "colours": ["#7B1E1E", "#FFFFFF"]
+            },
+            "Elskworth Town"
+          ]
+        },
+        {
+          "name": "Ardeland Third Circle",
+          "shortName": "Third Circle",
+          "tier": 3,
+          "clubs": [
+            "Draymoor Park",
+            "Fothergate United",
+            {
+              "name": "Glimhurst Rovers",
+              "colours": ["#0B3D91", "#FFFFFF"]
+            },
+            "Hobstead Albion",
+            "Kellmoor City",
+            "Loamford Athletic",
+            {
+              "name": "Merehaven United",
+              "colours": ["#C8102E", "#FFFFFF"]
+            },
+            "Nabbury Wanderers",
+            "Otterwell Town",
+            "Pikeholme FC",
+            {
+              "name": "Quillmouth Rangers",
+              "colours": ["#F57C00", "#FFFFFF"]
+            },
+            "Rookdale United",
+            "Sallowmere Harriers",
+            "Thrumwick Athletic",
+            {
+              "name": "Ullbridge Town",
+              "colours": ["#7B1E1E", "#FFFFFF"]
+            },
+            "Wendholme Albion"
+          ]
+        },
+        {
+          "name": "Ardeland Fourth Circle",
+          "shortName": "Fourth Circle",
+          "tier": 4,
+          "clubs": [
+            "Vanecross Rovers",
+            "Yarrowfield Town",
+            {
+              "name": "Briarmoor Athletic",
+              "colours": ["#0B3D91", "#FFFFFF"]
+            },
+            "Caldstow United",
+            "Dunmerwick Rovers",
+            "Eskerford City",
+            {
+              "name": "Fallowmere Town",
+              "colours": ["#F57C00", "#FFFFFF"]
+            },
+            "Gallowhurst FC",
+            "Heronsmoor Wanderers",
+            "Ivelcombe Athletic",
+            {
+              "name": "Lindenport United",
+              "colours": ["#111111", "#FFFFFF"]
+            },
+            "Ormsthwaite Town",
+            "Pellbury Rangers",
+            "Rushymere Harriers",
+            {
+              "name": "Tarnholme Sporting",
+              "colours": ["#3B7A57", "#E0E0E0"],
+              "players": [
+                {"firstName": "Huxley", "lastName": "Jessamy", "age": 24, "positions": ["GK"], "overall": 48},
+                {"firstName": "Caspian", "lastName": "Lathbury", "age": 18, "positions": ["GK"], "overall": 55, "potential": 66},
+                {"firstName": "Huxley", "lastName": "Ashgrove", "age": 31, "positions": ["CB"], "overall": 53},
+                {"firstName": "Tamsin", "lastName": "Callow", "age": 26, "positions": ["CB"], "overall": 54},
+                {"firstName": "Perrin", "lastName": "Dunstall", "age": 29, "positions": ["CB"], "overall": 55},
+                {"firstName": "Yoren", "lastName": "Earnshaw", "age": 33, "positions": ["CB"], "overall": 52},
+                {"firstName": "Lorcan", "lastName": "Brackenbury", "age": 17, "positions": ["LB"], "overall": 54, "potential": 67},
+                {"firstName": "Gideon", "lastName": "Pellow", "age": 31, "positions": ["RB"], "overall": 54},
+                {"firstName": "Gideon", "lastName": "Lowrance", "age": 32, "positions": ["LWB"], "overall": 51},
+                {"firstName": "Garrick", "lastName": "Elsworth", "age": 21, "positions": ["RWB"], "overall": 50, "potential": 62},
+                {"firstName": "Yoren", "lastName": "Fernshaw", "age": 31, "positions": ["DM"], "overall": 53},
+                {"firstName": "Jarek", "lastName": "Coldwell", "age": 18, "positions": ["CM"], "overall": 55, "potential": 63}
+              ]
+            },
+            {
+              "name": "Wrenstow Albion",
+              "colours": ["#3B7A57", "#E0E0E0"],
+              "players": [
+                {"firstName": "Fenn", "lastName": "Umbridge", "age": 33, "positions": ["GK"], "overall": 46},
+                {"firstName": "Dorian", "lastName": "Ibbotsen", "age": 29, "positions": ["GK"], "overall": 55},
+                {"firstName": "Idris", "lastName": "Brackenbury", "age": 19, "positions": ["CB"], "overall": 54, "potential": 61},
+                {"firstName": "Ivar", "lastName": "Sallowby", "age": 22, "positions": ["CB"], "overall": 55},
+                {"firstName": "Orrin", "lastName": "Elsworth", "age": 28, "positions": ["CB"], "overall": 54},
+                {"firstName": "Quill", "lastName": "Kettleby", "age": 27, "positions": ["CB"], "overall": 54},
+                {"firstName": "Rafe", "lastName": "Falconbridge", "age": 21, "positions": ["LB"], "overall": 49, "potential": 63},
+                {"firstName": "Hollis", "lastName": "Nettleford", "age": 25, "positions": ["RB"], "overall": 54},
+                {"firstName": "Jarek", "lastName": "Pellow", "age": 27, "positions": ["LWB"], "overall": 50},
+                {"firstName": "Caspian", "lastName": "Merriday", "age": 22, "positions": ["RWB"], "overall": 51},
+                {"firstName": "Kit", "lastName": "Rendle", "age": 27, "positions": ["DM"], "overall": 51},
+                {"firstName": "Kit", "lastName": "Quarrie", "age": 20, "positions": ["CM"], "overall": 53, "potential": 59}
+              ]
+            }
+          ]
+        }
+      ],
+      "freeAgents": [
+        {"firstName": "Marek", "lastName": "Jardley", "age": 20, "positions": ["LW"], "overall": 49, "potential": 63},
+        {"firstName": "Cosmo", "lastName": "Yarrell", "age": 25, "positions": ["LW"], "overall": 51},
+        {"firstName": "Jory", "lastName": "Yarrell", "age": 27, "positions": ["CM"], "overall": 46},
+        {"firstName": "Orrin", "lastName": "Lowrance", "age": 18, "positions": ["LM"], "overall": 49, "potential": 63},
+        {"firstName": "Tamsin", "lastName": "Umbridge", "age": 17, "positions": ["LWB"], "overall": 45, "potential": 54},
+        {"firstName": "Soren", "lastName": "Dunstall", "age": 30, "positions": ["CB"], "overall": 53}
+      ]
+    }
+  ]
+}

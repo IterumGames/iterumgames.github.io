@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="doc">
+<p class="crumb"><a href="/">Iterum Games</a>{% if page.game %} › <a href="../">{{ page.game }}</a>{% endif %}</p>
+<h1>{{ page.title }}</h1>
+{{ content }}
+</main>
+</body>
+</html>

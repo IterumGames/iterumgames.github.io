@@ -26,3 +26,9 @@ a { color: var(--mint); }
 .card h2 { margin: 0; }
 .card p { margin: 0.3em 0 0; }
 footer { color: var(--muted); font-size: 0.85rem; margin-top: 48px; }
+.doc pre { background: var(--card); border-radius: 12px; padding: 14px; overflow-x: auto; font-size: 0.85rem; line-height: 1.45; }
+.doc code { font-family: ui-monospace, Consolas, monospace; font-size: 0.9em; overflow-wrap: anywhere; }
+.doc pre code { overflow-wrap: normal; }
+.doc .table { overflow-x: auto; }
+.doc table { border-collapse: collapse; width: 100%; font-size: 0.9rem; display: block; overflow-x: auto; }
+.doc th, .doc td { border-bottom: 1px solid #3c3f5c; padding: 6px 10px 6px 0; text-align: left; vertical-align: top; }
