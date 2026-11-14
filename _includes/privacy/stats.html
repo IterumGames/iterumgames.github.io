@@ -8,4 +8,4 @@
   <li><strong>Why:</strong> {{ page.stats.purpose }}. Our legal basis is your consent.</li>
   <li><strong>How long:</strong> Google Analytics keeps event data for 2 months. Unity keeps it for as long as its standard retention period allows, or until you ask for deletion.</li>
 </ul>
-<p>You can change your choice at any time in <em>{{ page.stats.setting }}</em>. <em>{{ page.stats.delete }}</em> turns sharing off, asks Unity to delete the data linked to your ID, and resets the Google Analytics ID on your device.</p>
+<p>You can change your choice at any time in <em>{{ page.stats.setting }}</em>. {% if page.stats.delete %}<em>{{ page.stats.delete }}</em> turns sharing off, asks Unity to delete the data linked to your ID, and resets the Google Analytics ID on your device.{% else %}Turning it off stops collection straight away. To ask for data you already sent to be deleted, email us.{% endif %}</p>
