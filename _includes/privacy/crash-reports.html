@@ -3,9 +3,9 @@
 <p>The game uses Firebase Crashlytics, a Google service, so we can find and fix crashes and errors. This runs for every player. It doesn't depend on your answer to the stats question, and the game has no switch for it.</p>
 <ul>
   <li><strong>What is sent:</strong> when the game crashes or hits an error, a technical report: the kind of problem, its technical message, where in the game's code it happened, and the state of your device at that moment (such as device model, processor, graphics hardware and screen details, operating system version, whether the device is rooted, free memory and storage, and app version). Each time the game is opened, a note that a session started, with the app version, device model and operating system version, so crashes can be counted against sessions. Both come with random IDs created for this install (a Crashlytics installation ID and a Firebase installation ID) and for each session.{% if page.stats %} If you agreed to share gameplay stats, a crash report also shows the stats events recorded shortly before the crash.{% endif %}</li>
-  <li><strong>What the game never adds:</strong> your name, anything from your saved games, a log of what you did, your precise location or your advertising ID. An error's own technical message is part of the report; on rare occasions such a message can quote a piece of the data the game was handling when it failed.</li>
+  <li><strong>About the technical message:</strong> it is written by the game's code to describe what went wrong. On rare occasions it can quote a piece of the data the game was handling when it failed.</li>
   <li><strong>Who receives it:</strong> <a href="{{ l.google }}">Google</a> (Firebase Crashlytics), which processes it for us.</li>
-  <li><strong>Why:</strong> to fix problems and keep the game working. Our legal basis is our legitimate interest in a game that works.</li>
+  <li><strong>Why:</strong> only to find and fix bugs and make the game more reliable. Our legal basis is our legitimate interest in a game that works.</li>
   <li><strong>How long:</strong> Google keeps crash reports and their IDs for 90 days.</li>
 </ul>
 <p>To ask about this data or request its deletion, email us.</p>
