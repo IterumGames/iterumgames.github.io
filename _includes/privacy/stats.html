@@ -1,0 +1,11 @@
+{%- assign l = site.data.privacy.links -%}
+<h2>Gameplay stats and crash reports (opt-in)</h2>
+<p>When you first play, the game asks whether you want to share gameplay stats. If you say no, nothing is sent and none of the services below is started for stats. If you say yes:</p>
+<ul>
+  <li><strong>What is sent:</strong> game events such as {{ page.stats.events }}; plus crash and error reports. They come with a random ID created for this install, your device model, operating system version, app version, language and approximate country (from your IP address).</li>
+  <li><strong>What is never sent for stats:</strong> your name, email, phone number, precise location or your advertising ID.</li>
+  <li><strong>Who receives it:</strong> <a href="{{ l.unity }}">Unity Gaming Services</a> (Analytics and crash diagnostics) and <a href="{{ l.google }}">Google Analytics for Firebase</a>.</li>
+  <li><strong>Why:</strong> {{ page.stats.purpose }}. Our legal basis is your consent.</li>
+  <li><strong>How long:</strong> Google Analytics keeps event data for 2 months. Unity keeps it for as long as its standard retention period allows, or until you ask for deletion.</li>
+</ul>
+<p>You can change your choice at any time in <em>{{ page.stats.setting }}</em>. <em>{{ page.stats.delete }}</em> turns sharing off, asks Unity to delete the data linked to your ID, and resets the Google Analytics ID on your device.</p>

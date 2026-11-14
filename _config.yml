@@ -1,0 +1,5 @@
+# Built by GitHub Pages (Jekyll). Files without front matter (CSS, images, app-ads.txt, JSON)
+# are copied as they are; pages with front matter are assembled from _layouts and _includes.
+title: Iterum Games
+exclude:
+  - README.md

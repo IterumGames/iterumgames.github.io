@@ -1,0 +1,30 @@
+{%- assign d = site.data.privacy -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.game }} privacy policy</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+<p class="crumb"><a href="/">{{ d.company }}</a> › <a href="../">{{ page.game }}</a></p>
+<h1>{{ page.game }} privacy policy</h1>
+<p class="muted">Effective {{ page.updated }}{% if page.change %} ({{ page.change }}){% endif %}. The parts shared by all games from {{ d.company }} were last updated {{ d.updated }}.</p>
+
+{% include privacy/summary.html %}
+{% include privacy/responsible.html %}
+{% include privacy/on-device.html %}
+{% if page.stats %}{% include privacy/stats.html %}{% endif %}
+{% if page.ads %}{% include privacy/ads.html %}{% endif %}
+{% if page.purchases %}{% include privacy/purchases.html %}{% endif %}
+{% if page.feedback %}{% include privacy/feedback.html %}{% endif %}
+{{ content }}
+{% include privacy/children.html %}
+{% include privacy/rights.html %}
+{% include privacy/security.html %}
+{% include privacy/changes.html %}
+</main>
+</body>
+</html>

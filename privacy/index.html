@@ -1,0 +1,27 @@
+---
+# Lists every page that uses the privacy layout, so a new game's policy appears here by itself.
+---
+{%- assign d = site.data.privacy -%}
+{%- assign policies = site.pages | where: "layout", "privacy" | sort: "game" -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ d.company }} privacy</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+<p class="crumb"><a href="/">{{ d.company }}</a></p>
+<h1>Privacy</h1>
+<p>Each game from {{ d.company }} has its own privacy policy, because each uses data a little differently. The parts they share (who we are, opt-in stats, ads, purchases, feedback and your rights) are written once and are the same in every game's policy. They were last updated {{ d.updated }}.</p>
+<ul>
+{%- for p in policies %}
+  <li><a href="{{ p.url }}">{{ p.game }} privacy policy</a> <span class="muted">(effective {{ p.updated }})</span></li>
+{%- endfor %}
+</ul>
+<p>This website has no tracking, cookies or scripts. Questions: <a href="mailto:{{ d.email }}">{{ d.email }}</a>.</p>
+</main>
+</body>
+</html>

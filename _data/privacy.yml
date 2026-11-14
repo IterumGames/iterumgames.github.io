@@ -1,0 +1,10 @@
+# Facts shared by every game's privacy policy (see _layouts/privacy.html).
+# Change the date whenever the shared text in _includes/privacy/ changes: it's shown on every policy.
+updated: 13 November 2026
+company: Iterum Games
+email: info@iterum.games
+links:
+  unity: https://unity.com/legal/privacy-policy
+  unity_ads: https://unity.com/legal/game-player-and-app-user-privacy-policy
+  google: https://policies.google.com/privacy
+  github: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement

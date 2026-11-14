@@ -1,0 +1,8 @@
+<p>{{ page.game }} is a {{ page.genre }} for {{ page.platform }} made by {{ site.data.privacy.company }} ("we"). This policy explains what data the game uses, why, who receives it, and the choices you have. In short:</p>
+<ul>
+  <li>{{ page.summary_local | default: "Your progress and settings stay on your device." }}</li>
+  {% if page.stats %}<li>Gameplay stats and crash reports are <strong>off until you say yes</strong>, and you can turn them off at any time.</li>{% endif %}
+  {% if page.ads %}<li>Ads only play when you choose to watch one. They are <strong>not personalised unless you say yes</strong>.</li>{% endif %}
+  {% if page.feedback %}<li>If you send us feedback, we receive your message and the game version.</li>{% endif %}
+  <li>We never ask for your name, email, contacts, location or photos.</li>
+</ul>
