@@ -1,10 +1,10 @@
 {%- assign l = site.data.privacy.links -%}
-<h2>Gameplay stats{% unless page.diagnostics %} and crash reports{% endunless %} (opt-in)</h2>
-<p>When you first play, the game asks whether you want to share gameplay stats. If you say no, {% if page.diagnostics %}no gameplay stats are sent{% else %}nothing is sent{% endif %} and none of the services below is started for stats. If you say yes:</p>
+<h2>Gameplay stats{% unless page.diagnostics or page.crash_reports %} and crash reports{% endunless %} (opt-in)</h2>
+<p>When you first play, the game asks whether you want to share gameplay stats. If you say no, {% if page.diagnostics or page.crash_reports %}no gameplay stats are sent{% else %}nothing is sent{% endif %} and none of the services below is started for stats. If you say yes:</p>
 <ul>
-  <li><strong>What is sent:</strong> game events such as {{ page.stats.events }}{% if page.diagnostics %}, and a short note of any error the game ran into{% else %}; plus crash and error reports{% endif %}. They come with a random ID created for this install, your device model, operating system version, app version, language and approximate country (from your IP address).</li>
+  <li><strong>What is sent:</strong> game events such as {{ page.stats.events }}{% if page.diagnostics or page.crash_reports %}, and a short note of any error the game ran into{% else %}; plus crash and error reports{% endif %}. They come with a random ID created for this install, your device model, operating system version, app version, language and approximate country (from your IP address).</li>
   <li><strong>What is never sent for stats:</strong> your name, email, phone number, precise location or your advertising ID.</li>
-  <li><strong>Who receives it:</strong> <a href="{{ l.unity }}">Unity Gaming Services</a> ({% if page.diagnostics %}Analytics{% else %}Analytics and crash diagnostics{% endif %}) and <a href="{{ l.google }}">Google Analytics for Firebase</a>.</li>
+  <li><strong>Who receives it:</strong> <a href="{{ l.unity }}">Unity Gaming Services</a> ({% if page.diagnostics or page.crash_reports %}Analytics{% else %}Analytics and crash diagnostics{% endif %}) and <a href="{{ l.google }}">Google Analytics for Firebase</a>.</li>
   <li><strong>Why:</strong> {{ page.stats.purpose }}. Our legal basis is your consent.</li>
   <li><strong>How long:</strong> Google Analytics keeps event data for 2 months. Unity keeps it for as long as its standard retention period allows, or until you ask for deletion.</li>
 </ul>

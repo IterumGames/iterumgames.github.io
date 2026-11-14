@@ -1,15 +1,16 @@
 ---
 # Managed Football privacy policy. The shared text is in _includes/privacy/ (see site/README.md).
 # Leave out stats, ads, purchases or feedback for a game that doesn't have them, and the section disappears.
-# diagnostics: always adds the "always sent" crash and performance section and takes crash reports out of the opt-in text.
+# crash_reports: always adds the "always sent" Firebase Crashlytics section and takes crash reports out of the opt-in text.
+# (diagnostics: always is the Unity Diagnostics version of that section; Tumbler Cups uses it.)
 # ads.setting is left out on purpose: this game never personalises ads, so the shared text says so.
 layout: privacy
 game: Managed Football
 genre: football club management game
 platform: Android
 updated: 14 November 2026
-change: crash, error and performance reports are now always sent; gameplay stats stay opt-in
-diagnostics: always
+change: crash and error reports now go to Google's Firebase Crashlytics instead of Unity, and performance measurements are no longer collected; gameplay stats stay opt-in
+crash_reports: always
 summary_local: Your careers, settings and club styles stay on your phone.
 local_data: Your careers (saved games), settings (currency, match speed, sound, line-up and tutorial choices, and your stats choice), the Club style looks you have unlocked, your style tokens and how many ads you watched today, and any custom databases you import
 stats:
