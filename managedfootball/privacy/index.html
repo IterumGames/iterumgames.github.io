@@ -2,7 +2,7 @@
 # Managed Football privacy policy. The shared text is in _includes/privacy/ (see site/README.md).
 # Leave out stats, ads, purchases or feedback for a game that doesn't have them, and the section disappears.
 # crash_reports: always adds the "always sent" Firebase Crashlytics section and takes crash reports out of the opt-in text.
-# (diagnostics: always is the Unity Diagnostics version of that section; Tumbler Cups uses it.)
+# stats.errors: true adds the short note of any error the game ran into, which this game sends with its stats.
 # ads.setting is left out on purpose: this game never personalises ads, so the shared text says so.
 layout: privacy
 game: Managed Football
@@ -18,6 +18,7 @@ stats:
   purpose: to see which parts of the game are used and decide what to improve
   setting: Settings › Share anonymous stats
   delete: Settings › Delete my analytics data
+  errors: true
 ads:
   example: a style token for a new look in <em>Club style</em> (up to three a day)
 purchases: The Supporter Pack and tips

@@ -1,9 +1,8 @@
 <p>{{ page.game }} is a {{ page.genre }} for {{ page.platform }} made by {{ site.data.privacy.company }} ("we"). This policy explains what data the game uses, why, who receives it, and the choices you have. In short:</p>
 <ul>
   <li>{{ page.summary_local | default: "Your progress and settings stay on your device." }}</li>
-  {% if page.diagnostics %}<li>Crash, error and performance reports are <strong>always sent</strong>, so we can fix problems. They hold technical details and a random ID, nothing about you or your game.</li>{% endif %}
   {% if page.crash_reports %}<li>Crash and error reports are <strong>always sent</strong>. We use them only to find and fix bugs and make the game more reliable. They hold technical details of the problem and of your device, and random IDs.</li>{% endif %}
-  {% if page.stats %}<li>Gameplay stats{% unless page.diagnostics or page.crash_reports %} and crash reports{% endunless %} are <strong>off until you say yes</strong>, and you can turn them off at any time.</li>{% endif %}
+  {% if page.stats %}<li>Gameplay stats{% unless page.crash_reports %} and crash reports{% endunless %} are <strong>off until you say yes</strong>, and you can turn them off at any time.</li>{% endif %}
   {% if page.ads %}<li>Ads only play when you choose to watch one. They are {% if page.ads.setting %}<strong>not personalised unless you say yes</strong>{% else %}<strong>never personalised</strong>{% endif %}.</li>{% endif %}
   {% if page.feedback %}<li>If you send us feedback, we receive your message and the game version.</li>{% endif %}
   <li>We never ask for your name, email, contacts, location or photos.</li>

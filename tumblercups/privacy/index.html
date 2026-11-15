@@ -5,17 +5,16 @@ layout: privacy
 game: Tumbler Cups
 genre: puzzle game
 platform: Android
-updated: 14 November 2026
-change: makes clear that crash, error and performance reports are always sent; gameplay stats stay opt-in
-diagnostics: always
-diagnostics_log: true
+updated: 15 November 2026
+change: crash and error reports now go to Google's Firebase Crashlytics instead of Unity, and performance measurements are no longer collected; gameplay stats stay opt-in
+crash_reports: always
 summary_local: Your progress, coins and settings stay on your phone.
 local_data: Your levels and stars, coins, cosmetics, daily-puzzle streak, weekly-challenge and endless-run results, and settings (sound, vibration, privacy choices)
 reset_path: Settings › Reset progress
 stats:
   events: levels started, won or lost (and in which mode), moves, time taken and stars, boosters used, new special sweets seen, endless-run length, coins spent, rewarded ads watched, the purchases you completed (product name only), shared daily results and session length
   purpose: to find levels that are too hard and decide what to improve
-  setting: Settings › Gameplay stats &amp; crash reports
+  setting: Settings › Gameplay stats
   delete: Settings › Delete my analytics data
 ads:
   example: double coins
