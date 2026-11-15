@@ -1,6 +1,5 @@
 # Facts shared by every game's privacy policy (see _layouts/privacy.html).
 # Change the date whenever the shared text in _includes/privacy/ changes: it's shown on every policy.
-updated: 14 November 2026
 company: Iterum Games
 email: info@iterum.games
 links:

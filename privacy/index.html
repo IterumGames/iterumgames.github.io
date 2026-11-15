@@ -15,10 +15,10 @@
 <main>
 <p class="crumb"><a href="/">{{ d.company }}</a></p>
 <h1>Privacy</h1>
-<p>Each game from {{ d.company }} has its own privacy policy, because each uses data a little differently. The parts they share (who we are, opt-in stats, ads, purchases, feedback and your rights) are written once and are the same in every game's policy. They were last updated {{ d.updated }}.</p>
+<p>Each game from {{ d.company }} has its own privacy policy, because each uses data a little differently. The parts they share (who we are, opt-in stats, ads, purchases, feedback and your rights) are written once and are the same in every game's policy.</p>
 <ul>
 {%- for p in policies %}
-  <li><a href="{{ p.url }}">{{ p.game }} privacy policy</a> <span class="muted">(effective {{ p.updated }})</span></li>
+  <li><a href="{{ p.url }}">{{ p.game }} privacy policy</a> <span class="muted">(last updated {{ p.updated }})</span></li>
 {%- endfor %}
 </ul>
 <p>This website has no tracking, cookies or scripts. Questions: <a href="mailto:{{ d.email }}">{{ d.email }}</a>.</p>
