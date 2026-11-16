@@ -21,7 +21,10 @@
   <li><a href="{{ p.url }}">{{ p.game }} privacy policy</a> <span class="muted">(last updated {{ p.updated }})</span></li>
 {%- endfor %}
 </ul>
-<p>This website has no tracking, cookies or scripts. Questions: <a href="mailto:{{ d.email }}">{{ d.email }}</a>.</p>
+<h2 id="website">This website</h2>
+<p>Only if you tap <em>Allow</em> on the cookie banner, this website uses <a href="{{ d.links.google }}">Google Analytics</a> to count page visits and which links are tapped (the page, the link and its text), along with the standard details Google Analytics collects: an anonymous cookie ID, an approximate location worked out from your IP address, and your browser and device type. We use it only to see which parts of the site people use. Google keeps the data for 2 months. Advertising features are off. If you tap <em>No thanks</em>, nothing is loaded and no cookie is set. You can change your choice at any time with <em>Cookie settings</em> at the bottom of every page.</p>
+<p>Questions: <a href="mailto:{{ d.email }}">{{ d.email }}</a>.</p>
 </main>
+{% include analytics.html %}
 </body>
 </html>

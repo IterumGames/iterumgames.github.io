@@ -1,0 +1,54 @@
+<!-- Website analytics (Google Analytics). Nothing loads and no cookie is set until the visitor taps Allow.
+     The choice is kept in this browser (localStorage "iterum-analytics"); "Cookie settings" in the footer asks again. -->
+<div id="consent" class="consent" hidden>
+  <p>We'd like to use Google Analytics cookies to see which pages and links visitors use, so we can improve the site. Nothing is collected unless you allow it. <a href="/privacy/#website">More</a></p>
+  <div class="consent__buttons">
+    <button type="button" data-consent="granted">Allow</button>
+    <button type="button" data-consent="denied">No thanks</button>
+  </div>
+</div>
+<p class="cookie-settings"><a href="#" id="cookie-settings">Cookie settings</a></p>
+<script>
+(function () {
+  var TAG = 'GTM-PWJV5MTB', KEY = 'iterum-analytics', loaded = false;
+  var box = document.getElementById('consent');
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function load() {
+    if (loaded) return;
+    loaded = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+    gtag('consent', 'default', { analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
+    gtag('js', new Date());
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtm.js?id=' + TAG;
+    document.head.appendChild(s);
+    // Every link tap, inside the site or out of it: which page, which link.
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href]');
+      if (!a || a.id === 'cookie-settings') return;
+      gtag('event', 'link_click', {
+        link_url: a.href,
+        link_text: (a.textContent || '').trim().slice(0, 100),
+        link_domain: a.hostname,
+        outbound: a.hostname !== location.hostname
+      });
+    }, true);
+  }
+  function choose(v) {
+    set(v);
+    box.hidden = true;
+    if (v === 'granted') load();
+    else if (loaded) location.reload(); // stop sending at once
+  }
+  box.addEventListener('click', function (e) {
+    var v = e.target.getAttribute && e.target.getAttribute('data-consent');
+    if (v) choose(v);
+  });
+  document.getElementById('cookie-settings').addEventListener('click', function (e) { e.preventDefault(); box.hidden = false; });
+  var c = get();
+  if (c === 'granted') load(); else if (c !== 'denied') box.hidden = false;
+})();
+</script>
