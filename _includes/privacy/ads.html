@@ -1,6 +1,7 @@
 {%- assign l = site.data.privacy.links -%}
 <h2>Rewarded ads (you choose to watch)</h2>
 <p>The game only shows an ad when you tap a button offering a reward, such as {{ page.ads.example }}. There are no banners, pop-up ads or ads that play by themselves. Ads are served by <a href="{{ l.unity }}">Unity LevelPlay</a> and the ad networks it works with, such as <a href="{{ l.unity_ads }}">Unity Ads</a>.</p>
+{% if page.ads.note %}<p>{{ page.ads.note }}</p>{% endif %}
 <ul>
   <li>To show and measure ads, and to prevent fraud, the ad services receive your device's advertising ID, IP address, device and app information and which ads you saw or tapped.</li>
   {% if page.ads.setting %}<li><strong>Personalised ads are off by default.</strong> If you turn on <em>{{ page.ads.setting }}</em>, ad networks may use this data to pick ads based on your interests. With it off, we tell them not to personalise ads and not to sell your data, and they should only use it to show and measure ads.</li>{% else %}<li><strong>Ads are never personalised.</strong> There is no setting to turn them on: we always tell the ad networks not to personalise ads and not to sell your data, and they should only use it to show and measure ads.</li>{% endif %}
