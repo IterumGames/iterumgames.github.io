@@ -34,3 +34,4 @@ footer { color: var(--muted); font-size: 0.85rem; margin-top: 48px; }
 .doc th, .doc td { border-bottom: 1px solid #3c3f5c; padding: 6px 10px 6px 0; text-align: left; vertical-align: top; }
 .callout { background: var(--card); border-left: 4px solid var(--pink); border-radius: 12px; padding: 14px 16px; margin: 20px 0; }
 .qr img { background: #fff; border-radius: 12px; padding: 8px; }
+img.features { width: 100%; height: auto; border-radius: 12px; }

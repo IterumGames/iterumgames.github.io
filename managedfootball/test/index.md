@@ -27,6 +27,10 @@ On your Android phone, open the [Managed Football Play Store page](https://play.
 
 The game doesn't show up in a Play Store search during testing, so always use the link or the code.
 
+## What the game is like
+
+<p><a href="features.png"><img class="features" src="features.png" alt="Managed Football features and screenshots"></a></p>
+
 ## Please stay for 14 days
 
 Google needs testers to stay opted in for 14 days before a game can be released to everyone. Leaving the game installed and opening it now and then is a big help.
