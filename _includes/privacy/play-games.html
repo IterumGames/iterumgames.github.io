@@ -1,0 +1,7 @@
+{%- assign l = site.data.privacy.links -%}
+<h2>Google Play Games</h2>
+<p>If you use Google Play Games on your phone, the game signs you in to it automatically{% if page.play_games.setting %} (you can also sign in from <em>{{ page.play_games.setting }}</em>){% endif %}. Google then shares your Play Games name and player ID with the game so it can show them, and the game tells Google when you unlock {{ page.play_games.features | default: "an achievement" }}.</p>
+<ul>
+  <li><strong>Who receives it:</strong> Google, through <a href="https://developer.android.com/games/pgs/data-collection">Google Play Games Services</a>, under the <a href="{{ l.google }}">Google privacy policy</a>. We don't receive or store any of it. Google also collects technical and usage data to keep Play Games working.</li>
+  <li><strong>Your choices:</strong> in the Google Play Games app you choose who can see your profile and game activity, can turn off automatic sign-in, and can delete your Play Games data.</li>
+</ul>
